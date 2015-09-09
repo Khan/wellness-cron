@@ -1,0 +1,4 @@
+cron:
+- description: culture us
+  url: /culture
+  schedule: every mon,tue,wed,thu,fri 17:00
