@@ -1,4 +1,7 @@
 cron:
 - description: culture us
   url: /culture
+  # This is 9 or 10 AM pacific time.  Ideally we would specify a timezone, but
+  # then we'd have to make sure pytz is installed, and this is easier. (webapp
+  # doesn't install it).
   schedule: every mon,tue,wed,thu,fri 17:00
