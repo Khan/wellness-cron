@@ -29,7 +29,7 @@ _CULTURE_MESSAGES = [
     "Wanna teach the team about anything? Spread good habits? Show off what you're building? <http://khanacademy.org/r/speaknow|Sign up to Speak Now> in the future after Wednesday's dev sitdown!",
     "Will just leave these <https://www.khanacademy.org/stories|users stories here>.",
     "Do you need anything to do your job well? Hardware? Software? Food? Coach K bobblehead for your desk? <https://sites.google.com/a/khanacademy.org/forge/for-khan-employees/how-to-buy-software-hardware-anything-you-need-to-get-your-job-done-well|It's easy to get whatever you need>, and if you have any trouble ping Kamens quickly.",
-    "Shipping anything sizable? <http://www.joelonsoftware.com/articles/fog0000000012.html|Dog food> it! Schedule a dogfooding hour, ping in hipchat to gather friendly eaters of dog food, profit.",
+    "Shipping anything sizable?  <http://www.joelonsoftware.com/articles/fog0000000012.html|Dog food> it!  Schedule a dogfooding hour, ping in Slack to gather friendly eaters of dog food, profit.",
     "<https://www.khanacademy.org/r/wtf|Why are we building what we're building? What are we building? Who is doing what?>",
     "<https://sites.google.com/a/khanacademy.org/forge/for-developers/performance|Performance is a feature> and is everyone's job. Unsure how to profile your code? No worries, just ask, we have some perf nuts on the team.",
     "Anybody can <https://sites.google.com/a/khanacademy.org/forge/for-developers/deployment-guidelines|own a deploy>. If you've got big changes going out, you're probably that anybody. I (Culture Cow), may one day even keep track of a deploy count leaderboard and spit it out here!",
