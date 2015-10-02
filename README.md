@@ -19,8 +19,10 @@ hamburgers.
 Can I add more culture magic?
 -----------------------------
 
-Absolutely. Modify `culture.py` (or whatever else you want). Just abide
-by the two rules of Culture Cow above.
+Absolutely. Simply modify [the Google spreadsheet] with all the phrases.
+Just abide by the two rules of Culture Cow above.
+
+[the Google spreadsheet]: https://docs.google.com/a/khanacademy.org/spreadsheets/d/1EtgPvCh0a0AFDOW2vu_ugWQTZVQbsPXKEebbOoqof90/edit?usp=sharing
 
 Where does Khan Academy's Culture Cow live?
 -------------------------------------------
