@@ -14,7 +14,7 @@ import alertlib
 _DEFAULT_CHANNEL = "#wellness"
 _CULTURE_MESSAGES_CSV_URL = "https://docs.google.com/spreadsheets/d/1X3V3kSvqlOX4rj6w1NDagkXNrahRxb0iBSWmSne78vk/pub?gid=0&single=true&output=csv"
 
-_RESPOND_REGEXP = re.compile(r'culture us$')
+_RESPOND_REGEXP = re.compile(r'fitness us$')
 
 
 def _get_cached_culture_csv():
