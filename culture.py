@@ -11,10 +11,10 @@ import webapp2
 
 import alertlib
 
-_DEFAULT_CHANNEL = "#1s-and-0s"
-_CULTURE_MESSAGES_CSV_URL = "https://docs.google.com/spreadsheets/d/1EtgPvCh0a0AFDOW2vu_ugWQTZVQbsPXKEebbOoqof90/pub?gid=0&single=true&output=csv"
+_DEFAULT_CHANNEL = "#wellness"
+_CULTURE_MESSAGES_CSV_URL = "https://docs.google.com/spreadsheets/d/1X3V3kSvqlOX4rj6w1NDagkXNrahRxb0iBSWmSne78vk/pub?gid=0&single=true&output=csv"
 
-_RESPOND_REGEXP = re.compile(r'culture us$')
+_RESPOND_REGEXP = re.compile(r'fitness us$')
 
 
 def _get_cached_culture_csv():
@@ -34,15 +34,15 @@ def _get_culture():
     lines = _get_cached_culture_csv().splitlines()[1:]
     msgs = list(csv.reader(lines))
     message = random.choice(msgs)[0]
-    moo = 'M' + 'o' * random.randrange(2, 10) + '.'
-    return "%s  %s" % (message, moo)
+    return message
 
 
 class Culture(webapp2.RequestHandler):
     def get(self):
         """Invoked by cron."""
         alertlib.Alert(_get_culture()).send_to_slack(
-            _DEFAULT_CHANNEL, sender="Culture Cow", icon_emoji=":cow:")
+            _DEFAULT_CHANNEL, sender="Fitbot", icon_emoji=None,
+            icon_url="https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-02-23/22758959715_a279cab8824ed46f7fef_48.jpg")
 
     def post(self):
         """Hit by the culture cow outgoing webhook in Slack.
