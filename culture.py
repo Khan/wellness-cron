@@ -34,8 +34,7 @@ def _get_culture():
     lines = _get_cached_culture_csv().splitlines()[1:]
     msgs = list(csv.reader(lines))
     message = random.choice(msgs)[0]
-    moo = 'M' + 'o' * random.randrange(2, 10) + '.'
-    return "%s  %s" % (message, moo)
+    return message
 
 
 class Culture(webapp2.RequestHandler):
