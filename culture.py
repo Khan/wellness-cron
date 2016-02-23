@@ -11,7 +11,7 @@ import webapp2
 
 import alertlib
 
-_DEFAULT_CHANNEL = "#1s-and-0s"
+_DEFAULT_CHANNEL = "#wellness"
 _CULTURE_MESSAGES_CSV_URL = "https://docs.google.com/spreadsheets/d/1EtgPvCh0a0AFDOW2vu_ugWQTZVQbsPXKEebbOoqof90/pub?gid=0&single=true&output=csv"
 
 _RESPOND_REGEXP = re.compile(r'culture us$')
