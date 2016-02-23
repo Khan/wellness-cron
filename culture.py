@@ -41,7 +41,8 @@ class Culture(webapp2.RequestHandler):
     def get(self):
         """Invoked by cron."""
         alertlib.Alert(_get_culture()).send_to_slack(
-            _DEFAULT_CHANNEL, sender="Fitbot", icon_emoji=":robot_face:")
+            _DEFAULT_CHANNEL, sender="Fitbot", icon_emoji=None,
+            icon_url="https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-02-23/22758959715_a279cab8824ed46f7fef_48.jpg")
 
     def post(self):
         """Hit by the culture cow outgoing webhook in Slack.
