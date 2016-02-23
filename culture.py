@@ -42,7 +42,7 @@ class Culture(webapp2.RequestHandler):
     def get(self):
         """Invoked by cron."""
         alertlib.Alert(_get_culture()).send_to_slack(
-            _DEFAULT_CHANNEL, sender="Culture Cow", icon_emoji=":cow:")
+            _DEFAULT_CHANNEL, sender="Fitbot", icon_emoji=":robot_face:")
 
     def post(self):
         """Hit by the culture cow outgoing webhook in Slack.
