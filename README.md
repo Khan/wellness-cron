@@ -22,7 +22,7 @@ Can I add more culture magic?
 Absolutely. Simply modify [the Google spreadsheet] with all the phrases.
 Just abide by the two rules of Culture Cow above.
 
-[the Google spreadsheet]: https://docs.google.com/a/khanacademy.org/spreadsheets/d/1EtgPvCh0a0AFDOW2vu_ugWQTZVQbsPXKEebbOoqof90/edit?usp=sharing
+[the Google spreadsheet]: https://docs.google.com/a/khanacademy.org/spreadsheets/d/1X3V3kSvqlOX4rj6w1NDagkXNrahRxb0iBSWmSne78vk/edit?usp=sharing
 
 Where does Khan Academy's Culture Cow live?
 -------------------------------------------
