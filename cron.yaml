@@ -1,5 +1,5 @@
 cron:
 - description: culture us
   url: /culture
-  # TODO: replace me with real schedule, timezone is GMT
-  schedule: every 10 minutes from 2:00 to 15:45
+  # Timezone here is GMT (9-5 PST)
+  schedule: every 2 hours from 17:00 to 1:00
