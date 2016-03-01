@@ -1,5 +1,5 @@
 cron:
 - description: culture us
   url: /culture
-  # Timezone here is GMT (9-5 PST)
-  schedule: every 2 hours from 17:00 to 1:00
+  # Timezone here is GMT (9-3:59 PST)
+  schedule: every 2 hours from 17:00 to 23:59
